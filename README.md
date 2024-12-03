@@ -1,4 +1,4 @@
-# Spring AI Embedding Demo
+# Spring AI Embedding with OpenAi Demo
 
 ### Overview
 
