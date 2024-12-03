@@ -1,0 +1,22 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  ai:
+    openai:
+      api-key: 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
+      embedding:
+        options:
+          model: text-embedding-3-small
+  vectorstore:
+    pgvector:
+    index-type: HNSW
+    distance-type: COSINE_DISTANCE
+    dimensions: 1536
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8090
